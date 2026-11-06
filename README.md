@@ -1,79 +1,153 @@
-<h1 align="center">Илья</h1>
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=rounded&color=0:0F172A,100:4F46E5&height=190&text=Ilya&fontSize=52&fontColor=FFFFFF&fontAlignY=43&desc=WEB%20DEVELOPMENT%20%2F%20INTEGRATIONS%20%2F%20AI&descSize=14&descAlignY=68"
+    alt="Илья — веб-разработка, интеграции и AI"
+  />
+</p>
+
+<h3 align="center">От идеи — к работающему приложению</h3>
 
 <p align="center">
-  <b>Fullstack-разработчик</b><br/>
-  FastAPI • React • PostgreSQL • AI-системы
+  Веб-приложения · Backend · Интеграции · Локальные AI-системы
 </p>
 
 <p align="center">
-  <a href="https://github.com/IlyaMaid"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="https://t.me/Ilya_maid">
+    <img src="https://img.shields.io/badge/Telegram-Написать-4F46E5?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/IlyaMaid?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Репозитории-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Репозитории GitHub" />
+  </a>
 </p>
 
----
+<br>
 
-## Обо мне
+## / Обо мне
 
-Разрабатываю веб-приложения полного цикла: проектирование архитектуры, backend, интерфейс, база данных, контейнеризация и деплой.
+Больше **3 лет** занимаюсь технической поддержкой и развитием
+сайтов в онлайн-образовании: многостраничные сайты, квизы,
+интеграции и техническая обвязка.
 
-**Область профессиональных интересов:**
+В личных проектах развиваюсь в **fullstack-разработке**:
+работаю с backend, интерфейсами и базами данных,
+разбираюсь в архитектуре, контейнеризации и деплое.
 
-- AI-системы и Retrieval-Augmented Generation (RAG)
-- Backend-разработка на FastAPI
-- Интерфейсы на React
-- PostgreSQL и векторный поиск (pgvector)
-- Локальные LLM и автоматизация процессов
+Сейчас основной фокус — **TastePlanner**.
+Также интересуюсь локальными LLM, RAG и автоматизацией.
 
----
+<br>
 
-## Проекты
+## / Технологии
+
+**В рабочих задачах**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, JavaScript" />
+</p>
+
+HTML · CSS · JavaScript · Tilda
+
+**В личных проектах**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,react,vite,postgres,php,mysql&theme=dark&perline=7" alt="Python, FastAPI, React, Vite, PostgreSQL, PHP, MySQL" />
+</p>
+
+**Инструменты и окружение**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,docker,linux&theme=dark" alt="Git, Docker, Linux" />
+</p>
+
+<br>
+
+## / Главный проект
+
+<table>
+<tr>
+<td>
 
 ### TastePlanner
+**Персонализированное планирование питания**
 
-Веб-сервис для планирования питания с учётом предпочтений, целей и бюджета пользователя.
+<p>
+  <img src="https://img.shields.io/badge/Статус-В_разработке-4F46E5?style=flat-square" alt="В разработке" />
+  <img src="https://img.shields.io/badge/Формат-Личный_проект-334155?style=flat-square" alt="Личный проект" />
+</p>
 
-**Реализация:** REST API на FastAPI, реляционная модель данных в PostgreSQL, SPA-интерфейс на React (Vite).
+Веб-приложение для планирования рациона с учётом
+предпочтений, целей и бюджета пользователя.
 
-`FastAPI` `PostgreSQL` `React` `Vite`
+Прототип включает профиль пользователя, рекомендации рецептов,
+планирование питания и формирование списка покупок.
+Часть функций находится в доработке.
 
-### Local RAG System
+Единственный участник проекта. Развиваю API на FastAPI,
+модель данных в PostgreSQL и интерфейс на React.
 
-Локальная RAG-система с собственной базой знаний. Работает полностью офлайн: индексация документов в pgvector, генерация ответов через LM Studio. Приватность данных обеспечивается отсутствием внешних API.
+**Backend:** Python · FastAPI · SQLAlchemy · Alembic  
+**Frontend:** React · Vite  
+**Database:** PostgreSQL
 
-**Реализация:** чанкинг и векторизация документов, семантический поиск по эмбеддингам, интерфейс на Streamlit.
+<a href="https://github.com/IlyaMaid/TastePlanner"><b>Перейти к репозиторию →</b></a>
 
-`Python` `pgvector` `LM Studio` `Streamlit`
+<p><sub>Репозиторий приватный. Просмотр кода — по согласованию.</sub></p>
 
-### FindRest
+</td>
+</tr>
+</table>
 
-Сервис поиска ресторанов с системой отзывов и рекомендаций.
+<br>
 
-**Реализация:** серверная логика на PHP, база данных MySQL, адаптивный интерфейс на Bootstrap.
+## / Другие проекты
+
+### 01 — Local RAG System
+
+Локальная база знаний с поиском по документам
+и генерацией ответов через LM Studio.
+
+Чанкинг и векторизация документов, семантический поиск
+в pgvector, интерфейс на Streamlit.
+
+`Python` `PostgreSQL` `pgvector` `LM Studio` `Streamlit`
+
+---
+
+### 02 — FindRest
+
+Сервис поиска ресторанов с отзывами и рекомендациями.
+
+Серверная логика на PHP, база данных MySQL,
+адаптивный интерфейс на Bootstrap.
 
 `PHP` `MySQL` `Bootstrap`
 
+<br>
+
+<details>
+<summary><b>Что изучаю и куда развиваюсь</b></summary>
+
+<br>
+
+- Проектирование API и архитектуры веб-приложений.
+- Связь frontend, backend и базы данных.
+- Локальные языковые модели и RAG.
+- Векторный поиск по собственной базе знаний.
+- Контейнеризация и развёртывание приложений.
+
+</details>
+
+<br>
+
 ---
-
-## Технологический стек
-
-| Направление | Технологии |
-|---|---|
-| **Backend** | Python, FastAPI, PHP, Java |
-| **Frontend** | JavaScript, React, Vite, Bootstrap |
-| **Базы данных** | PostgreSQL, pgvector, MySQL |
-| **AI / ML** | RAG, локальные LLM, LM Studio, векторный поиск |
-| **Инфраструктура** | Docker, Linux, Git |
-
----
-
-## Статистика
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=IlyaMaid&show_icons=true&theme=graywhite&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=IlyaMaid&layout=compact&theme=graywhite&hide_border=true"/>
+  <b>Открыт к сотрудничеству</b><br>
+  <sub>Постоянная работа · Проектная разработка · Отдельные задачи</sub>
 </p>
 
----
-
 <p align="center">
-  <i>«Мне интереснее не просто писать код, а собирать работающие системы целиком»</i>
+  <a href="https://t.me/Ilya_maid"><b>Обсудить задачу →</b></a>
 </p>
